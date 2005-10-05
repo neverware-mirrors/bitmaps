@@ -75,4 +75,6 @@ dist_bitmap_DATA =	\
 	xfd_icon	\
 	xlogo11		\
 	xlogo16		\
-	xlogo32	
+	xlogo32		\
+	xlogo64		\
+	xsnow
