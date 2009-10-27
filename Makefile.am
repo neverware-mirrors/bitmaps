@@ -81,8 +81,6 @@ dist_bitmap_DATA =	\
 	xlogo64		\
 	xsnow
 
-EXTRA_DIST += ChangeLog
-MAINTAINERCLEANFILES = ChangeLog
 
 .PHONY: ChangeLog
 
