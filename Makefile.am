@@ -3,6 +3,7 @@ AUTOMAKE_OPTIONS = foreign
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = xbitmaps.pc
 
+MAINTAINERCLEANFILES = ChangeLog INSTALL
 EXTRA_DIST = xbitmaps.pc.in 
 CLEANFILES = xbitmaps.pc
 
@@ -82,9 +83,12 @@ dist_bitmap_DATA =	\
 	xsnow
 
 
-.PHONY: ChangeLog
+.PHONY: ChangeLog INSTALL
+
+INSTALL:
+	$(INSTALL_CMD)
 
 ChangeLog:
 	$(CHANGELOG_CMD)
 
-dist-hook: ChangeLog
+dist-hook: ChangeLog INSTALL
