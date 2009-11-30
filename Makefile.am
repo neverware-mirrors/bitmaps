@@ -1,10 +1,8 @@
-AUTOMAKE_OPTIONS = foreign
-
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = xbitmaps.pc
 
 MAINTAINERCLEANFILES = ChangeLog INSTALL
-EXTRA_DIST = xbitmaps.pc.in 
+EXTRA_DIST = xbitmaps.pc.in
 CLEANFILES = xbitmaps.pc
 
 bitmapdir = $(includedir)/X11/bitmaps
