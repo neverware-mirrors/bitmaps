@@ -2,7 +2,6 @@ pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = xbitmaps.pc
 
 MAINTAINERCLEANFILES = ChangeLog INSTALL
-CLEANFILES = xbitmaps.pc
 
 bitmapdir = $(includedir)/X11/bitmaps
 
