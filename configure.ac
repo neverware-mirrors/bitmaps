@@ -17,7 +17,7 @@ m4_ifndef([XORG_MACROS_VERSION],
 XORG_MACROS_VERSION(1.3)
 XORG_DEFAULT_OPTIONS
 
-AC_OUTPUT([
-	Makefile
-	xbitmaps.pc
+AC_CONFIG_FILES([Makefile
+		xbitmaps.pc
 ])
+AC_OUTPUT
